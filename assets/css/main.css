@@ -116,7 +116,7 @@ a:after {
 
 i {
 	margin: 8px;
-	color: #3498db; 
+	color: #3498db;
 }
 
 
@@ -130,7 +130,7 @@ i {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -149,4 +149,26 @@ i {
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
+}
+
+.mc-field-group {
+  margin-top: 0.5em;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .landing-image {
+    margin-top: 0.5em;
+    text-align: center;
+  }
+
+  .landing-image img {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  #mc-embedded-subscribe {
+    margin-top: 0.5em;
+  }
 }
